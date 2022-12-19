@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Países</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <h1>Países del Mundo API</h1>
+    </nav>
+    <main>
+    <section class="home">
+        <div>
+            <form>
+                <div class="flex">
+                    <input type="text" placeholder="Buscar países" id="buscarPaises"/>
+                    <button type="submit">Submit</button>
+                </div>
+
+                <select id="region" name="region">
+                    <option value="" disabled selected hidden>Filtrar</option>
+                    <option value="Africa">Africa</option>
+                    <option value="America">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europa</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </form>
+
+            <div class="paises">
+                <!--Paises muestran aquí cuando cargan-->
+            </div> 
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

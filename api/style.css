@@ -1,0 +1,105 @@
+* {
+    --box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    --lightGrey: hsl(61, 100%, 86%);
+    --allRound-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body {
+    background-color: hsl(56, 53%, 56%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+    width: 1130px;
+    background-color: var(--lightGrey);
+    border-radius: 7px;
+    margin: 2rem auto;
+}
+
+button{
+    height: 3rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(58, 100%, 86%);
+}
+
+nav h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+input,
+select {
+    height: 3rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(58, 100%, 86%);
+}
+
+input[type=text] {
+    width: 90vw;
+    padding-left: 2rem;
+}
+
+select {
+    width: 50vw;
+    padding: 0 1rem;
+}
+
+.box {
+    width: 250px;
+    min-height: 320px;
+    background-color: var(--lightGrey);
+    border-radius: 7px;
+    margin: 3rem auto;
+}
+
+.country-flag {
+    height: 120px;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.country-info {
+    margin-left: 1.5rem;
+}
+
+p span {
+    font-weight: 600;
+    margin-right: 0.3rem;
+}
+
+.paises {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    margin: 2rem 0 0 0;
+    justify-content: space-around;
+    width: auto;
+    padding: unset;
+}
+
+form>div {
+    margin: unset;
+}
+
+input[type=text] {
+    width: 15rem;
+}
+
+select {
+    width: 10rem;
+}
+
+.box {
+    margin: 0 1rem 3rem 1rem;
+}
